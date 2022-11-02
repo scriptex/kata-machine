@@ -25,4 +25,3 @@ test("LRU", function () {
     // front of the list, so baz became the end
     expect(lru.get("baz")).toEqual(undefined);
 });
-
